@@ -89,7 +89,7 @@ Container(
             margin: const EdgeInsets.only(top: 25),
             child: image !=null ?
              Image.file(image!,width: 140,height: 192,fit: BoxFit.fill,)
-             : IconButton(onPressed: (){}, icon: const Icon(Icons.add_a_photo,size: 100,color:Colors.black87,))
+             : const Icon(Icons.add_a_photo,size: 100,color:Colors.black87,)
           ),
         ),)
     )
